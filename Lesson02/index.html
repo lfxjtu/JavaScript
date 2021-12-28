@@ -9,14 +9,16 @@
         </p>
         <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-        <button
-        onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
 
         <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
-        <button>
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light </button>
+        <p>
+        </p>
+        <button onclick="document.getElementById('myImage').style='visibility:hidden'">Hide the light</button>
+        <button onclick="document.getElementById('myImage').style= 'width:100px'">Show the light</button>
 
-        </button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light </button>
     </body>
         </body>
     </body>
